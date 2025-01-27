@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+    <display-name>Trivial4U</display-name>
+    <description>Aplicacion web "Trivial4U" Trabajo STGI </description>
+    <servlet>
+        <servlet-name></servlet-name>
+        <description> Servlet basico </description>
+        <servlet-class></servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name></servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
