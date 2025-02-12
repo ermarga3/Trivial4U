@@ -13,6 +13,16 @@
             <welcome-file>index.html</welcome-file>
         </welcome-file-list>
 
+        <!-- Servlet para registrar un usuario -->
+        <servlet>
+            <servlet-name>Registro</servlet-name>
+            <servlet-class>Registro</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>Registro</servlet-name>
+            <url-pattern>/Registro</url-pattern>
+        </servlet-mapping>
+
         <session-config>
             <session-timeout>30</session-timeout>
         </session-config>
