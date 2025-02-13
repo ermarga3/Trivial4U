@@ -73,21 +73,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
 .form-input {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-}
-
-.form-input label {
-    margin-bottom: 5px;
-    color: #333;
-    display: block;
 }
 
 .form-input input {
@@ -95,4 +84,9 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
+}
+
+.form-input input[type="submit"] {
+    color: white;
+    cursor: pointer;
 }

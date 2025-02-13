@@ -16,7 +16,7 @@ public class Registro extends HttpServlet {
         if (pass.equals(pass2)) {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3307/proyecto", "root", "");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyecto", "root", "");
 
                 // Verificar si el nombre de usuario ya existe
                 PreparedStatement ps = con.prepareStatement("SELECT COUNT(*) FROM jugadores WHERE nombre = ?");
