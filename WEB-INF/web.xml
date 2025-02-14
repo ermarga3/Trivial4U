@@ -33,6 +33,16 @@
             <url-pattern>/Login</url-pattern>
         </servlet-mapping>
         
+        <!-- Servlet para mostrar estadísticas -->
+        <servlet>
+            <servlet-name>Estadisticas</servlet-name>
+            <servlet-class>Estadisticas</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>Estadisticas</servlet-name>
+            <url-pattern>/Estadisticas</url-pattern>
+        </servlet-mapping>
+        
         <session-config>
             <session-timeout>30</session-timeout>
         </session-config>
